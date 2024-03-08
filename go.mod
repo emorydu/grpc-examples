@@ -7,10 +7,12 @@ require google.golang.org/protobuf v1.33.0
 require github.com/google/uuid v1.6.0
 
 require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/protobuf v1.5.4
 	github.com/jinzhu/copier v0.4.0
 	github.com/stretchr/testify v1.9.0
+	golang.org/x/crypto v0.18.0
 	google.golang.org/grpc v1.62.1
 )
 

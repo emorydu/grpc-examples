@@ -1,0 +1,26 @@
+// Copyright 2024 Emory.Du <orangeduxiaocheng@gmail.com>. All rights reserved.
+// Use of this source code is governed by a MIT style
+// license that can be found in the LICENSE file.
+
+syntax = "proto3";
+
+package proto;
+
+
+option go_package = "github.com/emorydu/grpc-examples/pb;pb";
+
+
+message LoginRequest {
+  string username = 1;
+  string password = 2;
+}
+
+
+message LoginResponse {
+  string access_token = 1;
+}
+
+
+service AuthService {
+  rpc Login(LoginRequest) returns (LoginResponse) {};
+}

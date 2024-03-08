@@ -6,3 +6,8 @@ client:
 
 test:
 	go test -cover -race ./...
+
+clean:
+	rm pb/*.go
+
+.PHONY: clean server client test
