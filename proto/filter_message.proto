@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package proto;
+
+import "memory_message.proto";
+
+option go_package = "ed.io/grpc-examples/pb;pb";
+
+message Filter {
+  double max_price_usd = 1;
+  uint32 min_cpu_cores = 2;
+  double min_cpu_ghz = 3;
+  Memory min_ram = 4;
+}
