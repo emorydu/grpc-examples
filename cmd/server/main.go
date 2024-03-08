@@ -1,10 +1,10 @@
 package main
 
 import (
-	"ed.io/grpc-examples/pb"
-	"ed.io/grpc-examples/service"
 	"flag"
 	"fmt"
+	"github.com/emorydu/grpc-examples/pb"
+	"github.com/emorydu/grpc-examples/service"
 	"google.golang.org/grpc"
 	"log"
 	"net"

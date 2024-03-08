@@ -1,7 +1,7 @@
 package sample
 
 import (
-	"ed.io/grpc-examples/pb"
+	"github.com/emorydu/grpc-examples/pb"
 	"github.com/golang/protobuf/ptypes"
 )
 

@@ -1,4 +1,4 @@
-module ed.io/grpc-examples
+module github.com/emorydu/grpc-examples
 
 go 1.22.0
 

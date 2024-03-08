@@ -1,10 +1,10 @@
 package sample
 
 import (
+	"github.com/emorydu/grpc-examples/pb"
 	"math/rand"
 	"time"
 
-	"ed.io/grpc-examples/pb"
 	"github.com/google/uuid"
 )
 

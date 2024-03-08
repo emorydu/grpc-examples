@@ -9,7 +9,7 @@ import "screen_message.proto";
 import "keyboard_message.proto";
 import "google/protobuf/timestamp.proto";
 
-option go_package = "ed.io/grpc-examples/pb;pb";
+option go_package = "github.com/emorydu/grpc-examples/pb;pb";
 
 message Laptop {
     string id = 1;

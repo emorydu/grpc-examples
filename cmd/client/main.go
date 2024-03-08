@@ -3,9 +3,9 @@ package main
 import (
 	"bufio"
 	"context"
-	"ed.io/grpc-examples/pb"
-	"ed.io/grpc-examples/sample"
 	"flag"
+	"github.com/emorydu/grpc-examples/pb"
+	"github.com/emorydu/grpc-examples/sample"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"

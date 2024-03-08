@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package proto;
 
-option go_package = "ed.io/grpc-examples/pb;pb";
+option go_package = "github.com/emorydu/grpc-examples/pb;pb";
 
 message Keyboard {
     enum Layout {

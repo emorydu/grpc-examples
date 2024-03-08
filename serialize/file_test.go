@@ -1,11 +1,11 @@
 package serialize_test
 
 import (
+	"github.com/emorydu/grpc-examples/pb"
+	"github.com/emorydu/grpc-examples/sample"
+	"github.com/emorydu/grpc-examples/serialize"
 	"testing"
 
-	"ed.io/grpc-examples/pb"
-	"ed.io/grpc-examples/sample"
-	"ed.io/grpc-examples/serialize"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 )

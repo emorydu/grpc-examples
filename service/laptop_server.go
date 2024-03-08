@@ -3,8 +3,8 @@ package service
 import (
 	"bytes"
 	"context"
-	"ed.io/grpc-examples/pb"
 	"errors"
+	"github.com/emorydu/grpc-examples/pb"
 	"github.com/google/uuid"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

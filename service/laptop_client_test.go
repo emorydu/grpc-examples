@@ -2,14 +2,14 @@ package service_test
 
 import (
 	"context"
+	"github.com/emorydu/grpc-examples/pb"
+	"github.com/emorydu/grpc-examples/sample"
+	"github.com/emorydu/grpc-examples/serialize"
+	"github.com/emorydu/grpc-examples/service"
 	"io"
 	"net"
 	"testing"
 
-	"ed.io/grpc-examples/pb"
-	"ed.io/grpc-examples/sample"
-	"ed.io/grpc-examples/serialize"
-	"ed.io/grpc-examples/service"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 )
