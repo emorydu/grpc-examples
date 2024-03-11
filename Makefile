@@ -28,4 +28,7 @@ clean:
 cert:
 	cd cert; ./gen.sh; cd ..
 
+gen:
+	protoc --proto_path=proto proto/*.proto --go_out=plugins=grpc:pb --grpc-gateway_out=:pb --swagger_out=:swagger
+
 .PHONY: clean server client test cert
