@@ -10,4 +10,7 @@ test:
 clean:
 	rm pb/*.go
 
-.PHONY: clean server client test
+cert:
+	cd cert; ./gen.sh; cd ..
+
+.PHONY: clean server client test cert
